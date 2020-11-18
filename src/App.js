@@ -1,11 +1,15 @@
-import React from 'react';
-import Navbar from './Navbar';
+import React from "react";
+import Navbar from "./Navbar";
+import MainHero from "./MainHero";
 function App() {
-  return (
-    <>
-      <Navbar></Navbar>
-    </>
-  );
+	return (
+		<>
+			<Navbar />
+			<main>
+				<MainHero />
+			</main>
+		</>
+	);
 }
 
 export default App;
