@@ -257,3 +257,41 @@ nav {
 .main-hero-text {
   transform: translateY(50px);
 }
+
+
+.partners {
+	height: 170px;
+	margin-top: 20px;
+	width: 100%;
+	padding: 0 80px;
+	display: flex;
+	justify-content: center;
+	background-color: cornsilk;
+}
+
+.partners-text {
+	
+}
+
+.process {
+	height: 200px;
+	margin-top: 20px;
+	width: 100%;
+	padding: 0 80px;
+	display: flex;
+	justify-content: center;
+	background-color: cornsilk;
+	display: grid;
+}
+
+.process-container {
+	display: flex;
+	align-self: center;
+	display: grid;
+	grid-template-columns: 25% 25% 25% 25%;
+	column-gap: 20px;
+}
+
+.process-text {
+	text-align: center;
+}
