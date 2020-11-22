@@ -1,8 +1,9 @@
 import React from "react";
 import Navbar from "./Navbar";
-import MainHero from "./MainHero";
-import Partners from "./Partners"
-import Process from "./Process"
+import MainHero from "./Home/MainHero";
+import Partners from "./Home/Partners"
+import Process from "./Home/Process"
+import Footer from "./Footer"
 function App() {
 	return (
 		<>
@@ -11,6 +12,7 @@ function App() {
 				<MainHero />
 				{/* <Partners/> */}
 				<Process/>
+				<Footer/>
 			</main>
 		</>
 	);

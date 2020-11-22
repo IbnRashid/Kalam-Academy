@@ -6,7 +6,7 @@ const MainHero = () => {
 		<div className="main-hero">
 			<div className="main-hero-text">
 				<h2>your road to knowledge starts here</h2>
-				<p>Build skills with courses from experts around the globe</p>
+				<p>Build your skills with courses from experts around the globe</p>
 			</div>
             <img className="main-hero-img" src={rtk} alt=""/>
 		</div>
