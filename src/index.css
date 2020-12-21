@@ -1,3 +1,40 @@
 main {
 	min-height: 80vh;
 }
+
+.main-hero {
+	width: 100%;
+	max-width: 100%;
+	min-width: 300px;
+	height: 700px;
+	margin: 0 auto;
+	display: flex;
+	flex-wrap: wrap;
+	padding: 0 5vw;
+	position: relative;
+	background-color: rgb(0, 182, 199);
+	background-image: url(bg-pattern-top.svg), url(bg-pattern-bottom.svg);
+	background-position:  bottom 00px  left, top  right  ;
+	background-repeat: no-repeat;
+}
+
+.main-hero-container {
+	width: 100%;
+	align-items: center;
+	flex-wrap: wrap;
+	display: flex;
+	
+}
+
+.main-hero-text {
+	width: 60%;
+	font-size: 40px;
+}
+
+.main-hero-img {
+	width: 40%;
+}
+
+.hero-title {
+	font-size: 65px;
+}
