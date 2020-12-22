@@ -1,11 +1,12 @@
 import React from "react";
 import { Navbar, Nav, Container } from "react-bootstrap";
+import img from "./ka.svg";
 
 const Header = () => {
 	return (
 		<header>
-			<Navbar bg="primary" variant="dark" expand="lg" collapseOnSelect>
-				<Navbar.Brand href="/" className="py-3"><h3>Kalam Academy</h3></Navbar.Brand>
+			<Navbar bg="light" variant="light" expand="lg" collapseOnSelect >
+				<Navbar.Brand href="/" className="py-2"><img src={img}/></Navbar.Brand>
 				<Navbar.Toggle aria-controls="basic-navbar-nav" />
 				<Navbar.Collapse id="basic-navbar-nav">
 					<Nav className="ml-auto">
