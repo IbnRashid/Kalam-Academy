@@ -2,7 +2,6 @@ import React from "react";
 import img from "./main-hero-img.png";
 import p_img from "./favicon.svg";
 
-
 const HomeScreen = () => {
 	return (
 		<>
@@ -13,11 +12,11 @@ const HomeScreen = () => {
 						<p>
 							Build your skills with our courses from experts around the world
 						</p>
-						<button type="button" class="btn btn-primary">
+						<button type="button" className="btn btn-primary">
 							button
 						</button>
 					</div>
-					<img class="main-hero-img" src={img} />
+					<img className="main-hero-img" src={img} alt="cool-stuff"/>
 				</div>
 			</div>
 			<div className="process">
@@ -25,11 +24,30 @@ const HomeScreen = () => {
 					How Kalam Academy Works
 				</h2>
 				<ul className="main-process">
-					<li><img src={p_img}/>How Kalam Academy Works How Kalam Academy WorksHow Kalam Academy Works</li>
-					<li><img src={p_img}/>How Kalam Academy Works How Kalam Academy WorksHow Kalam Academy Works</li>
-					<li><img src={p_img}/>How Kalam Academy Works How Kalam Academy WorksHow Kalam Academy Works</li>
-					<li><img src={p_img}/>How Kalam Academy Works How Kalam Academy WorksHow Kalam Academy Works</li>
+					<li>
+						<img src={p_img} alt="bruh"/>
+						How Kalam Academy Works How Kalam Academy WorksHow Kalam Academy
+						Works
+					</li>
+					<li>
+						<img src={p_img} alt="bruh"/>
+						How Kalam Academy Works How Kalam Academy WorksHow Kalam Academy
+						Works
+					</li>
+					<li>
+						<img src={p_img} alt="bruh"/>
+						How Kalam Academy Works How Kalam Academy WorksHow Kalam Academy
+						Works
+					</li>
+					<li>
+						<img src={p_img} alt="bruh"/>
+						How Kalam Academy Works How Kalam Academy WorksHow Kalam Academy
+						Works
+					</li>
 				</ul>
+			</div>
+			<div className="featured-courses">
+				<h2 className="text-center main-process-text">Featured Courses</h2>
 			</div>
 		</>
 	);

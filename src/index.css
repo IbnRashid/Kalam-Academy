@@ -13,13 +13,12 @@ main {
 	width: 100%;
 	max-width: 100%;
 	min-width: 300px;
-	height: 700px;
 	margin: 0 auto;
 	display: flex;
 	flex-wrap: wrap;
-	padding: 0 5vw;
+	padding: 6vw 5vw;
 	position: relative;
-	background-color: #eef1f3;
+	background-color: #eef1f3; 
 	/* background-image: url(bg-pattern-top.svg), url(bg-pattern-bottom.svg); */
 	background-position: bottom 250px left -200px, top 250px right -200px;
 	background-repeat: no-repeat;
@@ -35,12 +34,12 @@ main {
 .main-hero-text {
 	width: 50%;
 	font-size: 40px;
-	letter-spacing: -3px;
+	letter-spacing: -2px;
 	margin-right: 20px;
 }
 
 .main-hero-img {
-	width: 45%;
+	width: 48%;
 }
 
 .hero-title {
@@ -49,6 +48,7 @@ main {
 
 .process {
 	background-color: #eef1f3;
+	padding: 6vw 0;
 }
 
 .main-process-text {
@@ -68,4 +68,12 @@ main {
 
 .main-process img {
 	width: 200px;
+}
+
+.featured-courses {
+	background-color: #eef1f3;
+}
+
+.kaimg {
+	height: 50px;
 }
