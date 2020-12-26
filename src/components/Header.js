@@ -1,5 +1,5 @@
 import React from "react";
-import { LinkContainer } from "react-router-dom";
+import { LinkContainer } from "react-router-bootstrap";
 import { Navbar, Nav } from "react-bootstrap";
 import img from "./kaq.svg";
 
@@ -20,9 +20,11 @@ const Header = () => {
 								<h5>About Us</h5>
 							</Nav.Link>
 						</LinkContainer>
-						<Nav.Link href="/courses">
-							<h5>Courses</h5>
-						</Nav.Link>
+						<LinkContainer to="/courses">
+							<Nav.Link href="/courses">
+								<h5>Courses</h5>
+							</Nav.Link>
+						</LinkContainer>
 					</Nav>
 				</Navbar.Collapse>
 			</Navbar>
