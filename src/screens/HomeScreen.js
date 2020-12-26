@@ -1,6 +1,9 @@
 import React from "react";
 import img from "./main-hero-img.png";
 import p_img from "./favicon.svg";
+import { Row, Col } from "react-bootstrap";
+import courses from "../courses"
+import FeaturedCourse from "../components/FeaturedCourse"
 
 const HomeScreen = () => {
 	return (
@@ -44,6 +47,13 @@ const HomeScreen = () => {
 			</div>
 			<div className="featured-courses">
 				<h2 className="text-center main-process-text">Featured Courses</h2>
+				<Row>
+				{courses.slice(2, 5).map(course => (
+					<Col key={course._id} sm={12} md={6} lg={4} xl={3}>
+						<FeaturedCourse course={course}/>
+					</Col>
+                ))}
+			</Row>
 			</div>
 		</>
 	);
