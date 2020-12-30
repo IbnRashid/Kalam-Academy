@@ -4,7 +4,6 @@
 	padding: 0;
 }
 
-
 main {
 	min-height: 80vh;
 }
@@ -18,7 +17,7 @@ main {
 	flex-wrap: wrap;
 	padding: 6vw 5vw;
 	position: relative;
-	background-color: #eef1f3; 
+	background-color: #eef1f3;
 	/* background-image: url(bg-pattern-top.svg), url(bg-pattern-bottom.svg); */
 	background-position: bottom 250px left -200px, top 250px right -200px;
 	background-repeat: no-repeat;
@@ -69,7 +68,7 @@ main {
 }
 
 .main-process img {
-	width: 200px;
+	width: 190px;
 }
 
 .featured-courses {
@@ -82,10 +81,16 @@ main {
 }
 
 li {
-	
-	
 }
 
 .ml-auto {
 	margin-right: 3.5vw;
+}
+
+.fc {
+	width: 90px;
+}
+
+.fcimg {
+	width: 90px;
 }

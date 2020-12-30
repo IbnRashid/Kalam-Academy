@@ -47,13 +47,13 @@ const HomeScreen = () => {
 			</div>
 			<div className="featured-courses">
 				<h2 className="text-center main-process-text">Featured Courses</h2>
-				<Row>
+				<div>
 				{courses.slice(2, 5).map(course => (
-					<Col key={course._id} sm={12} md={6} lg={4} xl={3}>
+					<Col key={course._id}>
 						<FeaturedCourse course={course}/>
 					</Col>
                 ))}
-			</Row>
+			</div>
 			</div>
 		</>
 	);
