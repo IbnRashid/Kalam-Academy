@@ -5,7 +5,7 @@ import img from "./kaq.svg";
 
 const Header = () => {
 	return (
-		<header>
+		<header >
 			<Navbar bg="light" variant="light" expand="lg" collapseOnSelect>
 				<LinkContainer to="/">
 					<Navbar.Brand className="py-0">

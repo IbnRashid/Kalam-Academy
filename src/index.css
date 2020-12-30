@@ -78,9 +78,14 @@ main {
 
 .kaimg {
 	height: 50px;
+	margin-left: 4vw;
 }
 
 li {
 	
 	
+}
+
+.ml-auto {
+	margin-right: 3.5vw;
 }
