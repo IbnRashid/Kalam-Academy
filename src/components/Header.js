@@ -1,7 +1,7 @@
 import React from "react";
 import { LinkContainer } from "react-router-bootstrap";
 import { Navbar, Nav } from "react-bootstrap";
-import img from "./kaq.svg";
+import img from "./logo.svg";
 
 const Header = () => {
 	return (
@@ -9,7 +9,7 @@ const Header = () => {
 			<Navbar bg="light" variant="light" expand="lg" collapseOnSelect>
 				<LinkContainer to="/">
 					<Navbar.Brand className="py-0">
-						<img className="kaimg" alt="something" src={img} />
+						<img className="logo" alt="something" src={img} />
 					</Navbar.Brand>
 				</LinkContainer>
 				<Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -17,12 +17,12 @@ const Header = () => {
 					<Nav className="ml-auto">
 						<LinkContainer to="/about-us">
 							<Nav.Link>
-								<h5>About Us</h5>
+								<h4>About Us</h4>
 							</Nav.Link>
 						</LinkContainer>
 						<LinkContainer to="/courses">
 							<Nav.Link href="/courses">
-								<h5>Courses</h5>
+								<h4>Courses</h4>
 							</Nav.Link>
 						</LinkContainer>
 					</Nav>

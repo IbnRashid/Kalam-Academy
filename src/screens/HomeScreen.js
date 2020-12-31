@@ -15,9 +15,6 @@ const HomeScreen = () => {
 						<p>
 							Build your skills with our courses from experts around the world
 						</p>
-						<button type="button" className="btn btn-primary">
-							button
-						</button>
 					</div>
 					<img className="main-hero-img" src={img} alt="cool-stuff" />
 				</div>
@@ -47,7 +44,7 @@ const HomeScreen = () => {
 			</div>
 			<div className="featured-courses">
 				<h2 className="text-center main-process-text">Featured Courses</h2>
-				<div>
+				<div className="featc">
 				{courses.slice(2, 5).map(course => (
 					<Col key={course._id}>
 						<FeaturedCourse course={course}/>

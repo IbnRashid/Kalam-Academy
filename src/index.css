@@ -15,7 +15,7 @@ main {
 	margin: 0 auto;
 	display: flex;
 	flex-wrap: wrap;
-	padding: 6vw 5vw;
+	padding: 4vw 5vw;
 	position: relative;
 	background-color: #eef1f3;
 	/* background-image: url(bg-pattern-top.svg), url(bg-pattern-bottom.svg); */
@@ -31,19 +31,22 @@ main {
 }
 
 .main-hero-text {
-	width: 50%;
-	font-size: 40px;
+	width: 49%;
+	font-size: 2.2rem;
 	letter-spacing: -2px;
-	margin-right: 20px;
+	margin-right: 1%;
+	/* margin-bottom: 100px; */
 }
 
 .main-hero-img {
-	width: 48%;
+	width: 50%;
+	margin-top: 10px;
 }
 
 .hero-title {
-	font-size: 65px;
+	font-size: 4rem;
 	font-weight: 900;
+	color: #3d6cb9;
 }
 
 .process {
@@ -68,29 +71,57 @@ main {
 }
 
 .main-process img {
-	width: 190px;
+	width: 130px;
 }
 
 .featured-courses {
 	background-color: #eef1f3;
 }
 
-.kaimg {
-	height: 50px;
-	margin-left: 4vw;
+.logo {
+	height: 55px;
+	margin-left: 3.7vw;
 }
 
 li {
+	/* rgba(0,0,0,.5) */
 }
 
 .ml-auto {
-	margin-right: 3.5vw;
+	margin-right: 3.7vw;
 }
 
 .fc {
-	width: 90px;
+	width: 100%;
 }
 
 .fcimg {
-	width: 90px;
+	width: 100%;
+}
+
+.featc {
+	display: flex;
+}
+
+h4 {
+	font-weight: 500;
+	color: black;
+}
+
+h4:hover {
+	color: #00d1ff;
+}
+
+
+@media screen and (max-width: 900px) {
+}
+
+@media screen and (max-width: 768px) {
+	.logo {
+		height: 55px;
+		margin-left: 0vw;
+	}
+}
+
+@media screen and (max-width: 480px) {
 }
