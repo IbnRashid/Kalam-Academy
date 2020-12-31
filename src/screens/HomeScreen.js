@@ -1,9 +1,12 @@
 import React from "react";
 import img from "./main-hero-img.png";
-import p_img from "./favicon.svg";
+import carrer from "../images/carrer.svg";
+import offt from "../images/offt.svg";
+import pl from "../images/pl.svg";
+import skills from "../images/skills.svg";
 import { Col } from "react-bootstrap";
-import courses from "../courses"
-import FeaturedCourse from "../components/FeaturedCourse"
+import courses from "../courses";
+import FeaturedCourse from "../components/FeaturedCourse";
 
 const HomeScreen = () => {
 	return (
@@ -25,32 +28,37 @@ const HomeScreen = () => {
 				</h2>
 				<ul className="main-process text-center">
 					<li>
-						<img src={p_img} alt="bruh" />
-						<div>carrer opportunities</div>start your carrer in high demand feilds like it, marketing
+						<img src={carrer} alt="bruh" className="process-img" />
+						<div className="process-title">Carrer Opportunities</div>Start your
+						carrer in high demand feilds like it, marketing
 					</li>
 					<li>
-						<img src={p_img} alt="bruh" />
-						<div>personalised learning</div>choose your prefered learning venue from online, live and on site
+						<img src={pl} alt="bruh" className="process-img" />
+						<div className="process-title">Personalised Learning</div>Choose
+						your prefered learning venue from online, live and on site
 					</li>
 					<li>
-						<img src={p_img} alt="bruh" />
-						<div>new skills</div>learn the latest skills like programming, web design, business analytics and much more
+						<img src={skills} alt="bruh" className="process-img" />
+						<div className="process-title">New Skills</div>Learn the latest
+						skills like programming, web design, business analytics and much
+						more
 					</li>
 					<li>
-						<img src={p_img} alt="bruh" />
-						<div>off the job training</div>upskill your organization with on-demand training and development programs
+						<img src={offt} alt="bruh" className="process-img" />
+						<div className="process-title">Off-The-Job Training</div>Upskill
+						your organization with on-demand training and development programs
 					</li>
 				</ul>
 			</div>
 			<div className="featured-courses">
 				<h2 className="text-center main-process-text">Featured Courses</h2>
 				<div className="featc">
-				{courses.slice(2, 5).map(course => (
-					<Col key={course._id}>
-						<FeaturedCourse course={course}/>
-					</Col>
-                ))}
-			</div>
+					{courses.slice(2, 5).map((course) => (
+						<Col key={course._id}>
+							<FeaturedCourse course={course} />
+						</Col>
+					))}
+				</div>
 			</div>
 		</>
 	);
