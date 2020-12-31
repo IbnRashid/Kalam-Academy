@@ -1,7 +1,7 @@
 import React from "react";
 import img from "./main-hero-img.png";
 import p_img from "./favicon.svg";
-import { Row, Col } from "react-bootstrap";
+import { Col } from "react-bootstrap";
 import courses from "../courses"
 import FeaturedCourse from "../components/FeaturedCourse"
 

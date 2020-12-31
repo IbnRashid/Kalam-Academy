@@ -1,10 +1,9 @@
 import React from "react";
-import { Card } from "react-bootstrap";
 
 const FeaturedCourse = ({ course }) => {
 	return (
 		<div className=" fc">
-			<img className="fcimg" src={course.image} />
+			<img className="fcimg" src={course.image} alt={course.name}/>
 			<h4>{course.name}</h4>
 		</div>
 	);
