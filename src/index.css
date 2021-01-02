@@ -72,8 +72,6 @@ main {
 	width: 220px;
 }
 
-
-
 .featured-courses {
 	background-color: #eef1f3;
 }
@@ -83,23 +81,18 @@ main {
 	margin-left: 3.7vw;
 }
 
-
-
 .ml-auto {
 	margin-right: 3.7vw;
 }
 
-
 .fc-img {
-	width: 100%
-	
+	width: 100%;
 }
 
 .featc {
 	display: flex;
 	flex-wrap: wrap;
 }
-
 
 h4 {
 	font-weight: 500;
@@ -111,14 +104,13 @@ h4:hover {
 }
 
 .process-title {
-font-weight: 900;
-font-size: 22px;
-color: #3d6cb9;
+	font-weight: 900;
+	font-size: 22px;
+	color: #3d6cb9;
 }
 
 .process-img {
 	height: 130px;
-
 }
 
 li {
@@ -132,37 +124,74 @@ li {
 	padding: 25px;
 }
 
-
-.fc-top {
-	/* display: flex; */
-	
-	
-}
-
 .fc p {
 	font-size: 20px;
 	padding: 0px 20px;
 }
 
 .fc-img {
-	border-radius: 30px;
+	/* border-radius: 30px; */
+	/* height: 270px;
+	object-fit: cover; */
 }
 
 .profile-pic {
-	height: 40px;
-	width: 40px;
+	height: 50px;
+	width: 50px;
 	object-fit: cover;
+	border-radius: 10px;
+}
+
+.fc-bottom {
+	padding: 20px;
+	display: grid;
+	/* align-items: center;
+	justify-content: space-around; */
+	grid-template-columns: 50% 50%;
+	text-align: center;
+}
+
+.profile {
+	width: 80%;
+	display: flex;
+	align-items: center;
+	/* border: #00d1ff solid; */
+	align-items: center;
+	justify-content: space-around;
+	/* margin-left: 20px; */
+}
+
+.profile img {
+	margin-right: 5%;
+}
+
+.fc-button {
+	/* border-radius: 30px; */
+	height: 120px;
+	background-color: #00d1ff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.fc {
+	/* height: 300px; */
+}
+
+.fc-price {
+	align-self: center;
+	justify-self: center;
+	text-align: center;
 }
 
 @media screen and (max-width: 900px) {
 	.main-hero-text {
 		font-size: 1.6rem;
 	}
-	
+
 	.hero-title {
 		font-size: 2.5rem;
 	}
-
 }
 
 @media screen and (max-width: 768px) {
@@ -174,7 +203,7 @@ li {
 		font-size: 1.2rem;
 		letter-spacing: -1px;
 	}
-	
+
 	.hero-title {
 		font-size: 2rem;
 	}
@@ -200,7 +229,7 @@ li {
 		background-position: bottom 250px left -200px, top 250px right -200px;
 		background-repeat: no-repeat;
 	}
-	
+
 	.main-hero-container {
 		width: 100%;
 		align-items: center;
@@ -210,22 +239,21 @@ li {
 		margin-top: 55px;
 		margin-bottom: 55px;
 	}
-	
+
 	.main-hero-text {
 		width: 100%;
 		font-size: 1.5rem;
 		letter-spacing: -1px;
 		margin-right: 1%;
-		
+
 		/* margin-bottom: 100px; */
 	}
-	
+
 	.main-hero-img {
 		width: 80%;
 		margin-top: 10px;
-
 	}
-	
+
 	.hero-title {
 		font-size: 2.5rem;
 		font-weight: 900;
