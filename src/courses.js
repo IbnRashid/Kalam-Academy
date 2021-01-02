@@ -7,7 +7,7 @@ const courses = [
 			"Build modern responsive websites & UIs with HTML5, CSS3 & Sass! Learn Flex & CSS Grid",
 		description:
 			"This course is for both beginners and seasoned developers that want to learn how to build responsive websites and user interfaces with modern HTML5 and CSS3+ technologies like Flexbox and CSS Grid as well as the Sass pre-compiler. This course includes hours of both learning & studying sections along with real life projects. Stop having to rely on frameworks like Bootstrap for your user interface and learn how to create your own layouts and utility classes to build custom responsive websites and app UIs",
-		teacher: "anna johnson",
+		teacher: "Anna Johnson",
 		profilePic: "/images/person-1.jpg",
 		price: 149.99,
 	},
@@ -55,7 +55,7 @@ const courses = [
 			"Master Digital Marketing Strategy, Social Media Marketing, SEO, YouTube, Email, Facebook Marketing, Analytics & More",
 		description:
 			"With over 20 hours of training, quizzes and practical steps you can follow - this is one of the most comprehensive digital marketing courses available. We'll cover SEO, YouTube Marketing, Facebook Marketing, Google Adwords, Google Analytics and more! Learn By Doing The course is hugely interactive with projects, checklists & actionable lectures built into every section. Learn step by step how to market a business online from scratch across all the major marketing channels. Follow the steps on screen to get results at work, for own business or for your digital marketing clients.",
-		teacher: "bill anderson",
+		teacher: "Ibrahim Ali",
 		profilePic: "/images/person-5.jpg",
 		price: 15.99,
 	},
