@@ -184,6 +184,12 @@ li {
 	text-align: center;
 }
 
+.header2 {
+	background-image: url(header2.svg);
+	height: 100px;
+	background-size: contain;
+}
+
 @media screen and (max-width: 900px) {
 	.main-hero-text {
 		font-size: 1.6rem;
