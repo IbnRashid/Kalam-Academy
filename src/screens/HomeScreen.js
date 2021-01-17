@@ -12,15 +12,7 @@ const HomeScreen = () => {
 	return (
 		<>
 			<div className="main-hero">
-				<div className="main-hero-container">
-					<div className="main-hero-text">
-						<p className="hero-title">Your Road To Knowledge Starts Here</p>
-						<p>
-							Build your skills with our courses from experts around the world
-						</p>
-					</div>
-					<img className="main-hero-img" src={img} alt="cool-stuff" />
-				</div>
+				
 			</div>
 			<div className="process">
 				<h2 className="text-center main-process-text">

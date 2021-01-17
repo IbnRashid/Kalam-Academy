@@ -3,51 +3,28 @@
 	margin: 0;
 	padding: 0;
 }
-
-main {
-	min-height: 80vh;
+.header2 {
+	background-image: url(header2.svg);
+	height: 6.41vw;
+	background-size: contain;
+	/* background-size: contain; */
+	background-repeat: no-repeat;
+	background-color: black;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 .main-hero {
-	width: 100%;
-	max-width: 100%;
-	min-width: 300px;
-	margin: 0 auto;
-	display: flex;
-	flex-wrap: wrap;
-	padding: 4vw 5vw;
-	position: relative;
-	background-color: #eef1f3;
-	/* background-image: url(bg-pattern-top.svg), url(bg-pattern-bottom.svg); */
-	background-position: bottom 250px left -200px, top 250px right -200px;
+	background-color: black;
+	height: 660px;
+	background-image: url(clouds.svg);
 	background-repeat: no-repeat;
+	background-size: contain;
 }
 
-.main-hero-container {
-	width: 100%;
-	align-items: center;
-	flex-wrap: wrap;
-	display: flex;
-}
 
-.main-hero-text {
-	width: 49%;
-	font-size: 2.2rem;
-	letter-spacing: -2px;
-	margin-right: 1%;
-	/* margin-bottom: 100px; */
-}
 
-.main-hero-img {
-	width: 50%;
-	margin-top: 10px;
-}
-
-.hero-title {
-	font-size: 4rem;
-	font-weight: 900;
-	color: #3d6cb9;
-}
 
 .process {
 	background-color: #eef1f3;
@@ -78,7 +55,6 @@ main {
 
 .logo {
 	height: 55px;
-	margin-left: 3.7vw;
 }
 
 .ml-auto {
@@ -184,11 +160,7 @@ li {
 	text-align: center;
 }
 
-.header2 {
-	background-image: url(header2.svg);
-	height: 100px;
-	background-size: contain;
-}
+
 
 @media screen and (max-width: 900px) {
 	.main-hero-text {
