@@ -3,11 +3,16 @@
 	margin: 0;
 	padding: 0;
 }
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
 .header2 {
 	background-image: url(header2.svg);
 	height: 6.41vw;
 	background-size: contain;
-	/* background-size: contain; */
 	background-repeat: no-repeat;
 	background-color: black;
 	display: flex;
@@ -16,18 +21,35 @@
 }
 
 .main-hero {
-	background-color: black;
-	height: 660px;
-	background-image: url(clouds.svg);
+	height: 87vh;
+	background-image: url(cloudsup.svg), linear-gradient(black, #0D629B);
+	background-position: bottom, bottom;
 	background-repeat: no-repeat;
 	background-size: contain;
 }
 
+.sponsers {
+	height: 10vh;
+	background-color: white;
+}
+
+.sunrise {
+	height: 160vh;
+	background-color: grey;
+	background-image: url(cloudsdown.svg), linear-gradient(#0D629B, #4FA0A2, #F8A3A4, #FBE57F);
+	background-position: top, bottom;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+.categories {
+	
+}
 
 
 
 .process {
-	background-color: #eef1f3;
+	background-color:grey;
 	padding: 6vw 0;
 }
 

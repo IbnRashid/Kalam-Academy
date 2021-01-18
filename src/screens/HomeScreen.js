@@ -14,6 +14,17 @@ const HomeScreen = () => {
 			<div className="main-hero">
 				
 			</div>
+			<div className="sponsers">
+sponsers
+			</div>
+			<div className="sunrise">
+				<div className="categories">
+					
+				</div>
+				<div className="tree">
+
+				</div>
+			</div>
 			<div className="process">
 				<h2 className="text-center main-process-text">
 					How Kalam Academy Works
