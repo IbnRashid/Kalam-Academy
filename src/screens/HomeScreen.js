@@ -4,26 +4,17 @@ import carrer from "../images/carrer.svg";
 import offt from "../images/offt.svg";
 import pl from "../images/pl.svg";
 import skills from "../images/skills.svg";
-import { Col } from "react-bootstrap";
 import courses from "../courses";
 import FeaturedCourse from "../components/FeaturedCourse";
 
 const HomeScreen = () => {
 	return (
 		<>
-			<div className="main-hero">
-				
-			</div>
-			<div className="sponsers">
-sponsers
-			</div>
+			<div className="main-hero"></div>
+			<div className="sponsers">sponsers</div>
 			<div className="sunrise">
-				<div className="categories">
-					
-				</div>
-				<div className="tree">
-
-				</div>
+				<div className="categories"></div>
+				<div className="tree">tree</div>
 			</div>
 			<div className="process">
 				<h2 className="text-center main-process-text">
@@ -57,9 +48,9 @@ sponsers
 				<h2 className="text-center main-process-text">Featured Courses</h2>
 				<div className="featc">
 					{courses.slice(2, 5).map((course) => (
-						<Col key={course._id}>
+						<div key={course._id}>
 							<FeaturedCourse course={course} />
-						</Col>
+						</div>
 					))}
 				</div>
 			</div>
