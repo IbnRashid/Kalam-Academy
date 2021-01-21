@@ -7,14 +7,40 @@ import skills from "../images/skills.svg";
 import courses from "../courses";
 import FeaturedCourse from "../components/FeaturedCourse";
 
+// function stars() {
+// 	let count = 500;
+// 	const scene = document.querySelector(".main-hero");
+// 	let i = 0;
+// 	while (i < count) {
+// 		const star = document.createElement("i");
+// 		let x = Math.floor(Math.random() * window.innerWidth);
+// 		let y = Math.floor(Math.random() * window.innerHeight);
+// 		let duration = Math.random() * 10;
+// 		let size = Math.random() * 2;
+
+// 		star.style.left = x + "px";
+// 		star.style.top = y + "px";
+// 		star.style.width = 1 + size + "px";
+// 		star.style.height = 1 + size + "px";
+// 		console.log(star);
+// 		console.log(scene);
+// 		scene.appendChild(star);
+// 		i++;
+// 	}
+// }
+
 const HomeScreen = () => {
 	return (
 		<>
-			<div className="main-hero"></div>
-			<div className="sponsers">sponsers</div>
+			<div className="main-hero">
+				<div id="stars"></div>
+				<div id="stars2"></div>
+				<div id="stars3"></div>
+			</div>
+			<div className="sponsers"></div>
 			<div className="sunrise">
 				<div className="categories"></div>
-				<div className="tree">tree</div>
+				<div className="tree"></div>
 			</div>
 			<div className="process">
 				<h2 className="text-center main-process-text">
@@ -57,5 +83,7 @@ const HomeScreen = () => {
 		</>
 	);
 };
+
+// stars();
 
 export default HomeScreen;
