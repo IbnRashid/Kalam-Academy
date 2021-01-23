@@ -14,13 +14,12 @@ const HomeScreen = () => {
 				<div className="hero">
 					<h2>Why Helo There</h2>
 				</div>
-				<div className="sponsers"></div>
+				<div className="sponsers"><h2>Our Sponsers</h2></div>
 				<div id="stars"></div>
 				<div id="stars2"></div>
 				<div id="stars3"></div>
 				
 			</div>
-			<div className="sponsers"></div>
 			<div className="sunrise">
 				<div className="categories"></div>
 				<div className="tree"></div>
