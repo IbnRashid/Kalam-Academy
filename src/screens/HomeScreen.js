@@ -12,7 +12,7 @@ const HomeScreen = () => {
 		<>
 			<div className="main-hero">
 				<div className="hero">
-					<h2>Why Helo There</h2>
+					<h2>...</h2>
 				</div>
 				<div className="sponsers"><h2>Our Sponsers</h2></div>
 				<div id="stars"></div>

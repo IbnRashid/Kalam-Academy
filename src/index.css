@@ -17,28 +17,46 @@
 /* header */
 
 .header {
-	background-image: url(header2.svg);
-	height: 6.6vw;
-	background-size: contain;
-	background-repeat: no-repeat;
-	background-color: black;
+	height: 4vw;
+	background-color: white;
 	display: flex;
 	align-items: center;
-	justify-content: center;
+	justify-content: space-between;
 }
 
 .logo {
-	height: 3vw;
-	padding: 0px 35px 0px 35px;
+	height: 2vw;
+	padding-left: 10px;
+	justify-self: flex-start;
 }
 
 .nav-link {
 	text-decoration: none;
-	font-size: 1vw;
+	font-size: 0.8vw;
+	display: flex;
+	float: left;
+	padding: 10px;
+	margin-right: 10px;
+	align-items: center;
+	color: black;
 }
 
 .nav-link :hover {
 	color: #00d1ff;
+}
+
+.login {
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    padding: 10px 20px;
+    height: 100%;
+    width: 130px;
+    border: none;
+    outline: none;
+    background: #303030;
+    color: white;
 }
 
 .main-hero {
@@ -62,7 +80,7 @@
 .sponsers {
 	height: 98vh;
 	/* background-color: white; */
-	background-image: url(Slice\ 29.svg) ;
+	/* background-image: url(Slice\ 29.svg) ; */
 	background-size: cover;
 	background-repeat: no-repeat;
 	position: relative;
