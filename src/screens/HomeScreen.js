@@ -11,15 +11,17 @@ const HomeScreen = () => {
 	return (
 		<>
 			<div className="main-hero">
-				<div className="hero">
-					<h2>...</h2>
+				<div id="main-content">
+					<h1>Your Road To Knowledge Starts Here</h1>
+					<p>
+						Build your skills with our courses from experts around the world
+					</p>
 				</div>
-				<div className="sponsers"><h2>Our Sponsers</h2></div>
-				<div id="stars"></div>
-				<div id="stars2"></div>
-				<div id="stars3"></div>
-				
+				<div id="main-img-container">
+					<img src={img} alt="bruh" id="main-img" />
+				</div>
 			</div>
+
 			<div className="sunrise">
 				<div className="categories"></div>
 				<div className="tree"></div>
