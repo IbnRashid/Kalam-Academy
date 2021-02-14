@@ -63,6 +63,8 @@
 	background: #00d1ff;
 }
 
+
+
 /*  */
 
 .main-hero {
@@ -93,6 +95,8 @@
 .process {
 	background-color: white;
 	padding: 6vw 0;
+	text-align: center;
+
 }
 
 .main-process-text {
@@ -129,3 +133,42 @@ li {
 
 /*  */
 
+.sponsers {
+	/* margin: 10px 100px;
+	background-color: rgb(26, 26, 27);
+	border-radius: 30px; */
+	height: 150px;
+	text-align: center;
+	/* color: white; */
+}
+
+.sponsers h1 {
+	padding: 10px;
+	font-weight: 200;
+	font-size: 30px;
+}
+
+/*  */
+
+.featc {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.fc {
+	width: 430px;
+	padding: 10px;
+	margin: 5px;
+	border-radius: 5px;
+	background-color: #b3aaaa;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	
+}
+
+.fc-img {
+	width: 410px;
+	border-radius: 5px;
+}

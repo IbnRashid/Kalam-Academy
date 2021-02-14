@@ -54,6 +54,9 @@ const HomeScreen = () => {
 					</li>
 				</ul>
 			</div>
+			<div className="sponsers">
+				<h1>Our Sponsers</h1>
+			</div>
 			<div className="featured-courses">
 				<h2 className="text-center main-process-text">Featured Courses</h2>
 				<div className="featc">

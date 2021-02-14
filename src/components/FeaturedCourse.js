@@ -8,11 +8,11 @@ const FeaturedCourse = ({ course }) => {
 			<p>{course.shortDescription}</p>
 			<div className="fc-bottom">
 				<div className="profile">
-					<img
+					{/* <img
 						src={course.profilePic}
 						alt={course.teacher}
 						className="profile-pic"
-					/>
+					/> */}
 					<h5>{course.teacher}</h5>
 				</div>
 				<div className="fc-price">
