@@ -58,7 +58,7 @@ const HomeScreen = () => {
 				<h1>Our Sponsers</h1>
 			</div>
 			<div className="featured-courses">
-				<h2 className="text-center main-process-text">Featured Courses</h2>
+				{/* <h2 className="text-center main-process-text">Featured Courses</h2> */}
 				<div className="featc">
 					{courses.slice(2, 5).map((course) => (
 						<div key={course._id}>
