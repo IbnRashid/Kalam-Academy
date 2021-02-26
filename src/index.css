@@ -18,14 +18,15 @@
 
 .header {
 	height: 4vw;
-	background-color: white;
+	/* background-color: white; */
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
+	padding: 70px;
 }
 
 .logo {
-	height: 2vw;
+	height: 1.7vw;
 	padding-left: 10px;
 	justify-self: flex-start;
 }
@@ -52,7 +53,8 @@
     text-decoration: none;
     /* padding: 10px 20px; */
     /* height: 100%; */
-    width: 8vw;
+    width: 5vw;
+	height: 5vh;
     border: none;
     outline: none;
     background: #303030;
@@ -68,27 +70,13 @@
 /*  */
 
 .main-hero {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    align-items: center;
-    justify-self: center;
-    margin : 0 auto;
-    height: 90vh;
-    /* background-color: black; */
-    z-index: 1;
-    width: 100%;
-    max-width: 1300px;
-    padding: 0 20px
+
+    height: 100vh;
+    background-image: url(bgimg.png);
+
 }
 
-#main-img-container {
-    text-align: center;
-}
 
-#main-img {
-    height: 100%;
-    width: 100%;
-}
 
 /*  */
 

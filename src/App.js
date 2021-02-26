@@ -5,12 +5,12 @@ import Footer from "./components/Footer";
 import HomeScreen from "./screens/HomeScreen"
 import AboutScreen from "./screens/AboutScreen"
 import CoursesScreen from "./screens/CoursesScreen"
-import Header from "./components/Header";
+// import Header from "./components/Header";
 
 function App() {
 	return (
 		<Router>
-			<Header/>
+			{/* <Header/> */}
 			<main>
 				<Route path="/" component={HomeScreen} exact/>
 				<Route path="/about-us" component={AboutScreen} exact/>

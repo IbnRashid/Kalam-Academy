@@ -6,19 +6,30 @@ import pl from "../images/pl.svg";
 import skills from "../images/skills.svg";
 import courses from "../courses";
 import FeaturedCourse from "../components/FeaturedCourse";
+import { Link } from "react-router-dom";
+import img1 from "../components/logo.svg";
 
 const HomeScreen = () => {
 	return (
 		<>
 			<div className="main-hero">
+			<nav className="header">
+			<Link to="/">
+				<img className="logo" src={img1} alt="#" />
+			</Link>
+			<div>
+				<Link className="nav-link" to="/courses">
+					<h3>COURSES</h3>
+				</Link>
+				<Link className="nav-link" to="/about-us">
+					<h3>ABOUT</h3>
+				</Link>
+				<Link className="nav-link login" to="#">
+					<h3>LOGIN</h3>
+				</Link>
+			</div>
+		</nav>
 				<div id="main-content">
-					<h1>Your Road To Knowledge Starts Here</h1>
-					<p>
-						Build your skills with our courses from experts around the world
-					</p>
-				</div>
-				<div id="main-img-container">
-					<img src={img} alt="bruh" id="main-img" />
 				</div>
 			</div>
 
