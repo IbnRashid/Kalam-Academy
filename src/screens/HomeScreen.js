@@ -1,5 +1,6 @@
 import React from "react";
 import img from "./main-hero-img.png";
+import MainTop from "../images/MainTop"
 import carrer from "../images/carrer.svg";
 import offt from "../images/offt.svg";
 import pl from "../images/pl.svg";
@@ -13,24 +14,30 @@ const HomeScreen = () => {
 	return (
 		<>
 			<div className="main-hero">
-			<nav className="header">
-			<Link to="/">
-				<img className="logo" src={img1} alt="#" />
-			</Link>
-			<div>
-				<Link className="nav-link" to="/courses">
-					<h3>COURSES</h3>
-				</Link>
-				<Link className="nav-link" to="/about-us">
-					<h3>ABOUT</h3>
-				</Link>
-				<Link className="nav-link login" to="#">
-					<h3>LOGIN</h3>
-				</Link>
-			</div>
-		</nav>
-				<div id="main-content">
-				</div>
+				{/* <nav className="header">
+					<Link to="/">
+						<img className="logo" src={img1} alt="#" />
+					</Link>
+					<div>
+						<Link className="nav-link" to="/courses">
+							<h3>COURSES</h3>
+						</Link>
+						<Link className="nav-link" to="/about-us">
+							<h3>ABOUT</h3>
+						</Link>
+						<Link className="nav-link login" to="#">
+							<h3>LOGIN</h3>
+						</Link>
+					</div>
+				</nav> */}
+				<MainTop/>
+					{/* <div className="main-header">Your Path to Knowledge Starts here</div>
+					<div className=""></div> */}
+					
+
+				{/* <div className="click">
+					helo
+				</div> */}
 			</div>
 
 			<div className="sunrise">
