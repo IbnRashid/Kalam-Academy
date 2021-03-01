@@ -14,7 +14,7 @@ const HomeScreen = () => {
 	return (
 		<>
 			<div className="main-hero">
-				{/* <nav className="header">
+				<nav className="header">
 					<Link to="/">
 						<img className="logo" src={img1} alt="#" />
 					</Link>
@@ -29,7 +29,7 @@ const HomeScreen = () => {
 							<h3>LOGIN</h3>
 						</Link>
 					</div>
-				</nav> */}
+				</nav>
 				<MainTop/>
 					{/* <div className="main-header">Your Path to Knowledge Starts here</div>
 					<div className=""></div> */}
