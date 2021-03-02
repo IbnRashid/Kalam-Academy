@@ -1,6 +1,6 @@
 import React from "react";
 import img from "./main-hero-img.png";
-import MainTop from "../images/MainTop"
+import MainTop from "../images/MainTop";
 import carrer from "../images/carrer.svg";
 import offt from "../images/offt.svg";
 import pl from "../images/pl.svg";
@@ -30,10 +30,13 @@ const HomeScreen = () => {
 						</Link>
 					</div>
 				</nav>
+				{/* <div className="header-container">
+				<div className="main-header">Your Path to Knowledge Starts here</div>
+				</div> */}
 				<MainTop/>
-					{/* <div className="main-header">Your Path to Knowledge Starts here</div>
-					<div className=""></div> */}
-					
+
+
+				{/* <div className=""></div> */}
 
 				{/* <div className="click">
 					helo
