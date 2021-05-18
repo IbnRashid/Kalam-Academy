@@ -30,7 +30,7 @@ body {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	/* background-color: blue; */
+	/* background-color: palegreen; */
 	padding: 4vw;
 	width: 100%;
 }
@@ -58,6 +58,7 @@ body {
 
 .login {
 	color: rgb(224, 218, 121);
+	background-color: #080055;
 	/* display: flex;
 	justify-content: center;
 	align-items: center;
