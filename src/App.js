@@ -16,7 +16,7 @@ function App() {
 				<Route path="/about-us" component={AboutScreen} exact/>
 				<Route path="/courses" component={CoursesScreen} exact/>
 			</main>
-			<Footer />
+			{/* <Footer /> */}
 		</Router>
 	);
 }

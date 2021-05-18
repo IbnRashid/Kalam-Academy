@@ -11,7 +11,8 @@
 	outline: solid #f00 1px !important; */
 }
 
-html, body {
+html,
+body {
 	margin: 0px;
 	padding: 0px;
 	width: 100%;
@@ -48,7 +49,7 @@ html, body {
 	padding: 1vw;
 	margin-right: 10px;
 	align-items: center;
-	color: black;
+	color: rgb(255, 255, 255);
 }
 
 .nav-link :hover {
@@ -56,18 +57,19 @@ html, body {
 }
 
 .login {
-	display: flex;
+	color: rgb(224, 218, 121);
+	/* display: flex;
 	justify-content: center;
 	align-items: center;
 	text-decoration: none;
 	/* padding: 10px 20px; */
-	/* height: 100%; */
+	/* height: 100%; 
 	width: 5vw;
 	height: 5vh;
 	border: none;
 	outline: none;
 	background: #303030;
-	color: white;
+	color: white; */
 }
 
 .login :hover {
@@ -116,25 +118,19 @@ svg {
 }
 
 #min {
-	animation: minnn 3s ease infinite;
-	transform-origin: bottom;
-
+	/* animation: minnn 3s ease infinite; */
+	transform-origin: bottom left;
+	transform-box: fill-box;
 }
 
 @keyframes minnn {
-    0% {
-        transform: rotateZ(0deg);
-    }
-    50% {
-        transform: rotateZ(-4deg);
-    }
-    100% {
-        transform: rotateZ(2deg);
-    }
-
+	0% {
+		transform: rotateZ(0deg);
+	}
+	100% {
+		transform: rotateZ(36deg);
+	}
 }
-
-
 
 /* .click {
 	display: flex ;
@@ -147,18 +143,33 @@ svg {
 /*  */
 
 .process {
-	background-color: white;
-	padding: 6vw 0;
+	height: 90vh;
+	background-color: blue;
+	/* padding: 6vw 0; */
 	text-align: center;
+	color: #080055;
+	display: grid;
+	grid-template-rows: 20% 80%;
 }
 
 .main-process-text {
 	font-size: 40px;
 	font-weight: 500;
-	margin-bottom: 50px;
+	background-color: khaki;
 }
 
 .main-process {
+	display: flex;
+	flex-direction: row;
+}
+
+.main-process-left {
+	background-color: rgb(163, 155, 82);
+	width: 50%;
+	height: 100%;
+}
+
+ul {
 	width: 100%;
 	display: flex;
 	flex-wrap: wrap;
@@ -166,7 +177,7 @@ svg {
 	list-style: none;
 }
 
-.main-process li {
+ul li {
 	width: 220px;
 }
 
@@ -250,10 +261,9 @@ li {
 	grid-area: button;
 }
 
-
 footer {
-	height: 938px;
-	/* height: 100vh; */
+	/* height: 100vh;
+	 height: 100vh; 
 	width: 100%;
-	background-image: url(footer.svg);
+	background-image: url(footer.svg); */
 }

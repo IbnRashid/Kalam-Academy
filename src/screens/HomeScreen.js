@@ -9,6 +9,7 @@ import courses from "../courses";
 import FeaturedCourse from "../components/FeaturedCourse";
 import { Link } from "react-router-dom";
 import img1 from "../components/logo.svg";
+import MainFooter from "../images/MainFooter";
 
 const HomeScreen = () => {
 	return (
@@ -33,8 +34,7 @@ const HomeScreen = () => {
 				{/* <div className="header-container">
 				<div className="main-header">Your Path to Knowledge Starts here</div>
 				</div> */}
-				<MainTop/>
-
+				<MainTop />
 
 				{/* <div className=""></div> */}
 
@@ -43,37 +43,37 @@ const HomeScreen = () => {
 				</div> */}
 			</div>
 
-			<div className="sunrise">
-				<div className="categories"></div>
-				<div className="tree"></div>
-			</div>
 			<div className="process">
-				<h2 className="text-center main-process-text">
-					How Kalam Academy Works
-				</h2>
-				<ul className="main-process text-center">
-					<li>
-						<img src={carrer} alt="bruh" className="process-img" />
-						<div className="process-title">Carrer Opportunities</div>Start your
-						carrer in high demand feilds like it, marketing
-					</li>
-					<li>
-						<img src={pl} alt="bruh" className="process-img" />
-						<div className="process-title">Personalised Learning</div>Choose
-						your prefered learning venue from online, live and on site
-					</li>
-					<li>
-						<img src={skills} alt="bruh" className="process-img" />
-						<div className="process-title">New Skills</div>Learn the latest
-						skills like programming, web design, business analytics and much
-						more
-					</li>
-					<li>
-						<img src={offt} alt="bruh" className="process-img" />
-						<div className="process-title">Off-The-Job Training</div>Upskill
-						your organization with on-demand training and development programs
-					</li>
-				</ul>
+				<h2 className="main-process-text">How Kalam Academy Works</h2>
+				<div className="main-process">
+					<div className="main-process-left"></div>
+					<div className="main-process-right">
+						<ul>
+							<li>
+								<img src={carrer} alt="bruh" className="process-img" />
+								<div className="process-title">Carrer Opportunities</div>Start
+								your carrer in high demand feilds like it, marketing
+							</li>
+							<li>
+								<img src={pl} alt="bruh" className="process-img" />
+								<div className="process-title">Personalised Learning</div>Choose
+								your prefered learning venue from online, live and on site
+							</li>
+							<li>
+								<img src={skills} alt="bruh" className="process-img" />
+								<div className="process-title">New Skills</div>Learn the latest
+								skills like programming, web design, business analytics and much
+								more
+							</li>
+							<li>
+								<img src={offt} alt="bruh" className="process-img" />
+								<div className="process-title">Off-The-Job Training</div>Upskill
+								your organization with on-demand training and development
+								programs
+							</li>
+						</ul>
+					</div>
+				</div>
 			</div>
 			<div className="sponsers">
 				<h1>Our Sponsers</h1>
@@ -88,6 +88,7 @@ const HomeScreen = () => {
 					))}
 				</div>
 			</div>
+			<MainFooter></MainFooter>
 		</>
 	);
 };
