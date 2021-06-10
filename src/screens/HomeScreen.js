@@ -19,8 +19,8 @@ const HomeScreen = () => {
 					<Link to="/">
 						<img className="logo" src={img1} alt="#" />
 					</Link>
-					<div>
-						<Link className="nav-link" to="/courses">
+					<div className="HBM">
+						{/* <Link className="nav-link" to="/courses">
 							<h3>COURSES</h3>
 						</Link>
 						<Link className="nav-link" to="/about-us">
@@ -28,7 +28,7 @@ const HomeScreen = () => {
 						</Link>
 						<Link className="nav-link login" to="#">
 							<h3>LOGIN</h3>
-						</Link>
+						</Link> */}
 					</div>
 				</nav>
 				{/* <div className="header-container">

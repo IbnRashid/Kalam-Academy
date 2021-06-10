@@ -142,8 +142,9 @@ svg {
 	padding: 4vw;
 	font-size: 3.6vw;
 	/* background-color: wheat; */
-	width: 50%;
-	font-weight: 500;
+	width: 45%;
+	font-weight: 600;
+	/* text-align: center; */
 }
 
 /* class=lax */
