@@ -38,9 +38,9 @@ const HomeScreen = () => {
 
 				{/* <div className=""></div> */}
 
-				<div className="click">
-					helo
-				</div>
+				<h1 className="click">
+					It's Never Too Late To Start Learning
+				</h1>
 			</div>
 
 			<div className="process">

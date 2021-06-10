@@ -136,22 +136,18 @@ svg {
 .click {
 	position: absolute;
 	height: 3vw;
-transform: translateY(-21vw);
+	transform: translateY(-25vw);
 	bottom: 0;
-	/* background-color: white; */
-
-	/* background-color: palegreen; */
-	/* padding: 4vw; */
-	/* width: 100%; */
-	
+	color: white;
+	padding: 4vw;
+	font-size: 3.6vw;
+	/* background-color: wheat; */
+	width: 50%;
+	font-weight: 500;
 }
 
 /* class=lax */
 /*  */
-
-
-
-
 
 .process {
 	height: 90vh;
@@ -206,10 +202,6 @@ ul li {
 li {
 	font-size: 18px;
 }
-
-
-
-
 
 /*  */
 
