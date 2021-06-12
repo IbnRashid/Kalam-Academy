@@ -41,40 +41,43 @@ body {
 	justify-self: flex-start;
 }
 
-.nav-link {
-	text-decoration: none;
-	font-size: 0.8vw;
-	display: flex;
+.nav-menu-items {
+	/* height: 200px; */
+	display: grid;
+	/* background-color: wheat; */
+}
+
+.nav-menu {
+	position: absolute;
+	transform: translateX(-5vw);
+	transform: translateY(60px);
+	width: 10vw;
+	background-color: #080055;
 	float: left;
-	padding: 1vw;
-	margin-right: 10px;
-	align-items: center;
-	color: rgb(255, 255, 255);
+}
+
+.nav-link {
+	padding: 10px;
+	
 }
 
 .nav-link :hover {
 	color: #00d1ff;
 }
 
-.login {
-	color: rgb(224, 218, 121);
-	background-color: #080055;
-	/* display: flex;
-	justify-content: center;
-	align-items: center;
-	text-decoration: none;
-	/* padding: 10px 20px; */
-	/* height: 100%; 
-	width: 5vw;
-	height: 5vh;
-	border: none;
-	outline: none;
-	background: #303030;
-	color: white; */
-}
 
-.login :hover {
-	background: #00d1ff;
+.menu-bars :only-child{
+	
+	height: 50px;
+	width: 50px;
+	/* background-color: #00d1ff; */
+	float: right;
+	color: white;
+
+
+}
+.HBM {
+	/* background-color: #00d1ff; */
 }
 
 /*  */

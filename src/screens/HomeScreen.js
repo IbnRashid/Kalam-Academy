@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import img from "./main-hero-img.png";
 import MainTop from "../images/MainTop";
 import carrer from "../images/carrer.svg";
@@ -10,8 +10,11 @@ import FeaturedCourse from "../components/FeaturedCourse";
 import { Link } from "react-router-dom";
 import img1 from "../components/logo.svg";
 import MainFooter from "../images/MainFooter";
+import * as FaIcons from "react-icons/fa";
 
 const HomeScreen = () => {
+	const [sidebar, setSidebar] = useState(false);
+	const showSidebar = () => setSidebar(!sidebar);
 	return (
 		<>
 			<div className="main-hero">
@@ -20,15 +23,34 @@ const HomeScreen = () => {
 						<img className="logo" src={img1} alt="#" />
 					</Link>
 					<div className="HBM">
-						{/* <Link className="nav-link" to="/courses">
-							<h3>COURSES</h3>
+						<Link to="#" className="menu-bars">
+							{/* <h1>T</h1> */}
+							<FaIcons.FaBars />
 						</Link>
-						<Link className="nav-link" to="/about-us">
-							<h3>ABOUT</h3>
-						</Link>
-						<Link className="nav-link login" to="#">
-							<h3>LOGIN</h3>
-						</Link> */}
+						<div className={sidebar ? "nav-menu active" : "nav-menu"}>
+							<ul className="nav-menu-items">
+								<li className="navbar-toggle">
+									<Link to="#" className="menu-bars">
+										<p onClick={showSidebar}>x</p>
+									</Link>
+								</li>
+								<li className="nav-link">
+									<Link to="/courses">
+										<h3>COURSES</h3>
+									</Link>
+								</li>
+								<li className="nav-link">
+									<Link to="/about-us">
+										<h3>ABOUT</h3>
+									</Link>
+								</li>
+								<li className="nav-link">
+									<Link className="login" to="#">
+										<h3>LOGIN</h3>
+									</Link>
+								</li>
+							</ul>
+						</div>
 					</div>
 				</nav>
 				{/* <div className="header-container">
@@ -38,9 +60,7 @@ const HomeScreen = () => {
 
 				{/* <div className=""></div> */}
 
-				<h1 className="click">
-					It's Never Too Late To Start Learning
-				</h1>
+				<h1 className="click">It's Never Too Late To Start Learning</h1>
 			</div>
 
 			<div className="process">
