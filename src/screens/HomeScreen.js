@@ -11,6 +11,7 @@ import { Link } from "react-router-dom";
 import img1 from "../components/logo.svg";
 import MainFooter from "../images/MainFooter";
 import * as FaIcons from "react-icons/fa";
+import * as AiIcons from "react-icons/ai";
 
 const HomeScreen = () => {
 	const [sidebar, setSidebar] = useState(false);
@@ -23,15 +24,42 @@ const HomeScreen = () => {
 						<img className="logo" src={img1} alt="#" />
 					</Link>
 					<div className="HBM">
-						<Link to="#" className="menu-bars">
+						<Link to="#" className="menu-bars" onClick={showSidebar}>
 							{/* <h1>T</h1> */}
 							<FaIcons.FaBars />
 						</Link>
 						<div className={sidebar ? "nav-menu active" : "nav-menu"}>
 							<ul className="nav-menu-items">
 								<li className="navbar-toggle">
-									<Link to="#" className="menu-bars">
-										<p onClick={showSidebar}>x</p>
+									<Link to="#" className="x">
+										<p onClick={showSidebar}>
+											<svg
+												width="59"
+												height="59"
+												viewBox="0 0 59 59"
+												fill="none"
+												xmlns="http://www.w3.org/2000/svg"
+											>
+												<rect
+													x="45.7634"
+													y="16.772"
+													width="41"
+													height="4"
+													rx="2"
+													transform="rotate(135 45.7634 16.772)"
+													fill="white"
+												/>
+												<rect
+													x="16.0649"
+													y="13.9437"
+													width="41"
+													height="4"
+													rx="2"
+													transform="rotate(45 16.0649 13.9437)"
+													fill="white"
+												/>
+											</svg>
+										</p>
 									</Link>
 								</li>
 								<li className="nav-link">
