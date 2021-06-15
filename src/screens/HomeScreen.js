@@ -34,8 +34,8 @@ const HomeScreen = () => {
 									<Link to="#" className="x">
 										<p onClick={showSidebar}>
 											<svg
-												width="59"
-												height="59"
+												width="60"
+												height="70"
 												viewBox="0 0 59 59"
 												fill="none"
 												xmlns="http://www.w3.org/2000/svg"
@@ -62,17 +62,17 @@ const HomeScreen = () => {
 										</p>
 									</Link>
 								</li>
-								<li className="nav-link">
+								<li className="nav-link c-link">
 									<Link to="/courses">
 										<h3>COURSES</h3>
 									</Link>
 								</li>
-								<li className="nav-link">
+								<li className="nav-link a-link">
 									<Link to="/about-us">
 										<h3>ABOUT</h3>
 									</Link>
 								</li>
-								<li className="nav-link">
+								<li className="nav-link l-link">
 									<Link className="login" to="#">
 										<h3>LOGIN</h3>
 									</Link>
@@ -88,7 +88,7 @@ const HomeScreen = () => {
 
 				{/* <div className=""></div> */}
 
-				<h1 className="click">It's Never Too Late To Start Learning</h1>
+				<h1 className="click">Stop Being Lazy And Finish This Website</h1>
 			</div>
 
 			<div className="process">
