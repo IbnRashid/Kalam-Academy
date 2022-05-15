@@ -2,7 +2,7 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	font-family: 'Ubuntu', sans-serif;
+	font-family: "Ubuntu", sans-serif;
 	/* font-family: "Mukta", sans-serif;
 	font-family: "Poppins", sans-serif;
 	font-family: "Roboto", sans-serif; */
@@ -56,8 +56,6 @@ body {
 	list-style: none;
 	width: 100%;
 }
-
-
 
 .nav-menu {
 	position: absolute;
@@ -119,7 +117,6 @@ body {
 	/* width: 5vw; */
 	float: right;
 	transform: translateX(1vw);
-
 }
 
 .menu-bars :only-child {
@@ -216,7 +213,7 @@ svg {
 }
 
 .main-process-text {
-	font-size: 2vw;
+	font-size: 2.7vw;
 	font-weight: bold;
 	/* background-color: khaki; */
 	text-align: center;
@@ -225,15 +222,13 @@ svg {
 
 .main-process {
 	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
 }
 
-.main-process-left {
+/* .main-process-left {
 	background-color: rgb(163, 155, 82);
 	width: 50%;
 	height: 100%;
-}
+} */
 
 ul {
 	width: 100%;

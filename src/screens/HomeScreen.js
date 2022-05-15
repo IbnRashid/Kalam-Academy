@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import img from "./main-hero-img.png";
 import MainTop from "../images/MainTop";
 import carrer from "../images/carrer.svg";
 import offt from "../images/offt.svg";
@@ -88,39 +87,37 @@ const HomeScreen = () => {
 
 				{/* <div className=""></div> */}
 
-				<h1 className="click">Stop Being Lazy And Finish This Website</h1>
+				<h1 className="click"> FINISH THIS WEBSITE</h1>
 			</div>
 
 			<div className="process">
 				<h2 className="main-process-text">How Kalam Academy Works</h2>
 				<div className="main-process">
-					<div className="main-process-left"></div>
-					<div className="main-process-right">
-						<ul>
-							<li>
-								<img src={carrer} alt="bruh" className="process-img" />
-								<div className="process-title">Carrer Opportunities</div>Start
-								your carrer in high demand feilds like it, marketing
-							</li>
-							<li>
-								<img src={pl} alt="bruh" className="process-img" />
-								<div className="process-title">Personalised Learning</div>Choose
-								your prefered learning venue from online, live and on site
-							</li>
-							<li>
-								<img src={skills} alt="bruh" className="process-img" />
-								<div className="process-title">New Skills</div>Learn the latest
-								skills like programming, web design, business analytics and much
-								more
-							</li>
-							<li>
-								<img src={offt} alt="bruh" className="process-img" />
-								<div className="process-title">Off-The-Job Training</div>Upskill
-								your organization with on-demand training and development
-								programs
-							</li>
-						</ul>
-					</div>
+					{/* <div className="main-process-left"></div> */}
+
+					<ul>
+						<li>
+							<img src={carrer} alt="bruh" className="process-img" />
+							<div className="process-title">Carrer Opportunities</div>Start
+							your carrer in high demand feilds like it, marketing
+						</li>
+						<li>
+							<img src={pl} alt="bruh" className="process-img" />
+							<div className="process-title">Personalised Learning</div>Choose
+							your prefered learning venue from online, live and on site
+						</li>
+						<li>
+							<img src={skills} alt="bruh" className="process-img" />
+							<div className="process-title">New Skills</div>Learn the latest
+							skills like programming, web design, business analytics and much
+							more
+						</li>
+						<li>
+							<img src={offt} alt="bruh" className="process-img" />
+							<div className="process-title">Off-The-Job Training</div>Upskill
+							your organization with on-demand training and development programs
+						</li>
+					</ul>
 				</div>
 			</div>
 			<div className="sponsers">
