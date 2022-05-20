@@ -5,7 +5,7 @@ const HomeScreen = () => {
 	return (
 		<>
 			{/* main hero */}
-			<MainHeroImg />
+			{/* <MainHeroImg /> */}
 			{/*  */}
 		</>
 	);
