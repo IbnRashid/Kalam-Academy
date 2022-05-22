@@ -25,10 +25,10 @@ function useWindowDimensions() {
 	return windowDimensions;
 }
 
-const Component = () => {
+const MainHeroImg = () => {
 	const { width } = useWindowDimensions();
 
-	if (width <= 375)
+	if (width <= 630)
 		return (
 			<svg
 				width="375"
@@ -1559,4 +1559,4 @@ const Component = () => {
 		);
 };
 
-export default Component;
+export default MainHeroImg;

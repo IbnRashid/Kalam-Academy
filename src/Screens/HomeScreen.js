@@ -1,12 +1,12 @@
 import React from "react";
-import MainHeroImg from "../Images/MainHeroImg";
+import MainHeroImg from "../Images/main-hero-img";
 
 const HomeScreen = () => {
 	return (
 		<>
-			{/* main hero */}
-			{/* <MainHeroImg /> */}
-			{/*  */}
+			<div className="main-hero-section">
+				<MainHeroImg />
+			</div>
 		</>
 	);
 };
