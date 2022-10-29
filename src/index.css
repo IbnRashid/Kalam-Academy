@@ -18,23 +18,150 @@ body {
 	width: 100%;
 	height: 100%;
 	overflow-x: hidden;
+	/* width: 1000px; */
+	position: relative;
+	background-color: #080055;
 
+}
+
+.header {
+	position: absolute;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	padding: 2rem;
+	z-index: 100;
+	padding: 2rem 100px;
+}
+
+.nav-right {
+	display: flex;
+	gap: 2rem;
+	/* background-color: black; */
+	
+}
+
+.nav-right h3 {
+	text-decoration: none;
+	color: white;
+	list-style: none;
+	font-size: 1.2vw;
+}
+
+.nav-right a {
+	text-decoration: none;
 }
 
 /* main hero */
 
-svg {
-	width: 100%;
-    height: 100%;
-    /* width: 150%;
-    height: 100%;
-	transform: translateX(-15%); */
+.main-hero-section {
+	position: relative;
+	color: white;
+	/* transform: translateY(100px); */
+	/* z-index: 0; */
 }
 
-/* @media (max-width: 768px) {
-    svg {
-	     width: 100%;
-         height: 100%;
-	     transform: translateX(-13%);
+.main-hero-svg {
+	width: 100%;
+    height: 100%;
+	padding: 0;
+	margin: 0;
+	/* transform: translateY(100px); */
+	/* position: absolute; */
+	/* z-index: -999; */
+}
+
+.hero-txt {
+	position: absolute;
+	height: 5vw;
+	/* transform: translateY(-70%); */
+	/* bottom: 0; */
+	/* color: white; */
+	/* padding: 4vw; */
+	padding-left: 4vw;
+	font-size: 3.6vw;
+	/* background-color: wheat; */
+	width: 45%;
+	font-weight: 600;
+	top: 40%;
+	bottom: 50%;
+	align-self: center;
+	justify-self: center;
+}
+
+.cta {
+	text-align: center;
+	transform: translateY(-6vw);
+	/* position: absolute; */
+	/* background-color: #080055; */
+}
+
+.arrow {
+	margin-top: 10px;
+	height: 20px;
+}
+
+
+
+
+.process {
+	background-color: white;
+	padding: 1vw 0;
+	text-align: center;
+	margin: 0 100px;
+	border-radius: 200px;
+	transform: translateY(-4px);
+	z-index: 1000;
+}
+
+.main-process-text {
+	font-size: 40px;
+	font-weight: 500;
+	margin-bottom: 25px;
+	/* color: white; */
+	font-weight: 600;
+}
+
+.main-process {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	list-style: none;
+}
+
+.main-process li {
+	width: 220px;
+	/* background-color: #675DE6; */
+	border-radius: 50px;
+	padding: 10px;
+}
+
+.process-title {
+	font-weight: 900;
+	font-size: 22px;
+	color: #3d6cb9;
+}
+
+.process-img {
+	height: 130px;
+	/* padding: 50x; */
+	/* background-color: aliceblue; */
+}
+
+li {
+	font-size: 18px;
+}
+
+
+
+
+.henlo {
+	height: 1000px;
+}
+
+@media (orientation: portrait) {
+	svg {
+		
 	}
-} */
+}

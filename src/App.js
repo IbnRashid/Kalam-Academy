@@ -5,7 +5,7 @@ import HomeScreen from "./Screens/HomeScreen";
 function App() {
 	return (
 		<Router>
-			<Header />
+				<Header />
 			<HomeScreen />
 		</Router>
 	);

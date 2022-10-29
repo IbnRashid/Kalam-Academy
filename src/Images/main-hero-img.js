@@ -31,6 +31,7 @@ const MainHeroImg = () => {
 	if (width <= 630)
 		return (
 			<svg
+			className="main-hero-svg"
 				width="375"
 				height="667"
 				viewBox="0 0 375 667"
@@ -557,6 +558,7 @@ const MainHeroImg = () => {
 	if (width <= 768)
 		return (
 			<svg
+			className="main-hero-svg"
 				width="1485"
 				height="954"
 				viewBox="0 0 1485 954"
@@ -1036,6 +1038,7 @@ const MainHeroImg = () => {
 	else
 		return (
 			<svg
+			className="main-hero-svg"
 				width="1890"
 				height="955"
 				viewBox="0 0 1890 955"
