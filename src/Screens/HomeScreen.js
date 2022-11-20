@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import MainHeroImg from "../Images/main-hero-img";
 import carrer from "../Images/carrer.svg";
 import offt from "../Images/offt.svg";
@@ -32,9 +33,7 @@ const HomeScreen = () => {
 				</div>
 			</div>
 			<div className="process">
-				<h2 className="text-center main-process-text">
-					How we help you
-				</h2>
+				<h2 className="text-center main-process-text">How we help you</h2>
 				<ul className="main-process text-center">
 					<li>
 						<img src={carrer} alt="bruh" className="process-img" />
@@ -58,6 +57,170 @@ const HomeScreen = () => {
 						your organization with on-demand training and development programs
 					</li>
 				</ul>
+			</div>
+			<div className="courses">
+				<section class="card-list">
+					<article class="card">
+						<header class="card-header">
+							<p>Sep 11th 2020</p>
+							<h2>Never forget</h2>
+						</header>
+
+						<div class="card-author">
+							<Link to="#" className="author-avatar">
+								<img className="logo" alt="#" src="#" />
+							</Link>
+							<svg class="half-circle" viewBox="0 0 106 57">
+								<path d="M102 4c0 27.1-21.9 49-49 49S4 31.1 4 4"></path>
+							</svg>
+
+							<div class="author-name">
+								<div class="author-name-prefix">Author</div>
+								Jeff Delaney
+							</div>
+						</div>
+
+						<div class="tags">
+							<Link className="nav-link login" to="#">
+								html
+							</Link>
+							<Link className="nav-link login" to="#">
+								css
+							</Link>
+							<Link className="nav-link login" to="#">
+								web-dev
+							</Link>
+						</div>
+					</article>
+					<article class="card">
+						<header class="card-header">
+							<p>Sep 11th 2020</p>
+							<h2>Never forget</h2>
+						</header>
+
+						<div class="card-author">
+							<Link to="#" className="author-avatar">
+								<img className="logo" alt="#" src="#" />
+							</Link>
+							<svg class="half-circle" viewBox="0 0 106 57">
+								<path d="M102 4c0 27.1-21.9 49-49 49S4 31.1 4 4"></path>
+							</svg>
+
+							<div class="author-name">
+								<div class="author-name-prefix">Author</div>
+								Jeff Delaney
+							</div>
+						</div>
+
+						<div class="tags">
+							<Link className="nav-link login" to="#">
+								html
+							</Link>
+							<Link className="nav-link login" to="#">
+								css
+							</Link>
+							<Link className="nav-link login" to="#">
+								web-dev
+							</Link>
+						</div>
+					</article>
+					<article class="card">
+						<header class="card-header">
+							<p>Sep 11th 2020</p>
+							<h2>Never forget</h2>
+						</header>
+
+						<div class="card-author">
+							<Link to="#" className="author-avatar">
+								<img className="logo" alt="#" src="#" />
+							</Link>
+							<svg class="half-circle" viewBox="0 0 106 57">
+								<path d="M102 4c0 27.1-21.9 49-49 49S4 31.1 4 4"></path>
+							</svg>
+
+							<div class="author-name">
+								<div class="author-name-prefix">Author</div>
+								Jeff Delaney
+							</div>
+						</div>
+
+						<div class="tags">
+							<Link className="nav-link login" to="#">
+								html
+							</Link>
+							<Link className="nav-link login" to="#">
+								css
+							</Link>
+							<Link className="nav-link login" to="#">
+								web-dev
+							</Link>
+						</div>
+					</article>
+					<article class="card">
+						<header class="card-header">
+							<p>Sep 11th 2020</p>
+							<h2>Never forget</h2>
+						</header>
+
+						<div class="card-author">
+							<Link to="#" className="author-avatar">
+								<img className="logo" alt="#" src="#" />
+							</Link>
+							<svg class="half-circle" viewBox="0 0 106 57">
+								<path d="M102 4c0 27.1-21.9 49-49 49S4 31.1 4 4"></path>
+							</svg>
+
+							<div class="author-name">
+								<div class="author-name-prefix">Author</div>
+								Jeff Delaney
+							</div>
+						</div>
+
+						<div class="tags">
+							<Link className="nav-link login" to="#">
+								html
+							</Link>
+							<Link className="nav-link login" to="#">
+								css
+							</Link>
+							<Link className="nav-link login" to="#">
+								web-dev
+							</Link>
+						</div>
+					</article>
+					<article class="card">
+						<header class="card-header">
+							<p>Sep 11th 2020</p>
+							<h2>Never forget</h2>
+						</header>
+
+						<div class="card-author">
+							<Link to="#" className="author-avatar">
+								<img className="logo" alt="#" src="#" />
+							</Link>
+							<svg class="half-circle" viewBox="0 0 106 57">
+								<path d="M102 4c0 27.1-21.9 49-49 49S4 31.1 4 4"></path>
+							</svg>
+
+							<div class="author-name">
+								<div class="author-name-prefix">Author</div>
+								Jeff Delaney
+							</div>
+						</div>
+
+						<div class="tags">
+							<Link className="nav-link login" to="#">
+								html
+							</Link>
+							<Link className="nav-link login" to="#">
+								css
+							</Link>
+							<Link className="nav-link login" to="#">
+								web-dev
+							</Link>
+						</div>
+					</article>
+				</section>
 			</div>
 			<div className="henlo"></div>
 		</>
