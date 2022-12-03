@@ -222,7 +222,8 @@ const HomeScreen = () => {
 					</article>
 				</section>
 			</div>
-			<div className="henlo"></div>
+			{/* <div className="henlo"></div>
+			<div className="footer"></div> */}
 		</>
 	);
 };

@@ -1,12 +1,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
-// import img from "./logo.svg";
+import KAlogo from "../Images/KAlogo.svg";
 
 const Header = () => {
   return ( 
     <nav className="header">
 			<Link to="/">
-				<img className="logo"  alt="#" /> 
+				<img className="logo" src={KAlogo} alt="#" /> 
 			</Link>
 			<div className="nav-right">
 				<Link className="nav-link" to="/courses">
