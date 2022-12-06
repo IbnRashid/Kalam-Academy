@@ -104,14 +104,18 @@ body {
 }
 
 .process {
-	background-color: white;
+	/* background-color: #741CF2; */
+	background-image: linear-gradient(to bottom right, #181398, #741CF2, #741CF2, #181398);
 	padding: 1vw 0;
 	text-align: center;
 	margin: 0 100px;
-	border-radius: 200px;
+	border-radius: 5vw;
+	/* border-radius: 200px; */
 	transform: translateY(-4px);
-	z-index: 1000;
+	z-index: 1000; 
 }
+
+/* 741CF2 181398 */
 
 .main-process-text {
 	font-size: 40px;
