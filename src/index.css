@@ -121,8 +121,9 @@ body {
 	font-size: 40px;
 	font-weight: 500;
 	margin-bottom: 25px;
-	/* color: white; */
+	color: white;
 	font-weight: 600;
+	border: #000 1px;
 }
 
 .main-process {
@@ -131,6 +132,13 @@ body {
 	flex-wrap: wrap;
 	justify-content: space-evenly;
 	list-style: none;
+	color: white;
+	font-size: 40px;
+	/* text-shadow: -1px 1px 2px #000,
+				  1px 1px 2px #000,
+				  1px -1px 0 #000,
+				  -1px -1px 0 #000; */
+	
 }
 
 .main-process li {
@@ -141,9 +149,9 @@ body {
 }
 
 .process-title {
-	font-weight: 900;
+	font-weight: 700;
 	font-size: 22px;
-	color: #3d6cb9;
+	color: #A2E1E7;
 }
 
 .process-img {
